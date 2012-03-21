@@ -27,7 +27,7 @@ public class Gerade {
 		return b;
 	}
 	public double nullstelle(){
-		return -b/m;
+		return m==0 ? Double.NaN : -b/m;
 	}
 	public double funktionswert(double x){
 		return m*x+b;
