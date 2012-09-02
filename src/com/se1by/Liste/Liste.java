@@ -1,4 +1,4 @@
-package com.jonas.Liste;
+package com.se1by.Liste;
 
 public class Liste {
 	public int[] zahl;
