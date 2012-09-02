@@ -17,7 +17,7 @@ public class Liste {
 	
 	public void multipliziereMitNachfolger(){
 		for(int i = 0; i < 99; i++){
-			zahl[i] += zahl[i+1];
+			zahl[i] *= zahl[i+1];
 		}
 	}
 	
