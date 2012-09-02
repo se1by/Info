@@ -9,6 +9,7 @@ public class Main {
 		Gerade g = new Gerade(3, 5);
 		g.druckeFunktionsgleichung();
 		g.druckeWerteTabelle(0, 10, 1);
+		new Display();
 
 	}
 
